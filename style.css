@@ -1,7 +1,38 @@
 body{
-	color:rgb(247, 230, 250);
-	background-color: darkblue;
+	font-family: "Azeret Mono", monospace;
+	background-color: #FBEEE2;
+	color: #161613;
+	font-size: 18px;
+	line-height: 32px;
 }
 h1{
-	color:tomato;
+	font-size: 200px;
+	line-height: 230px;
+}
+h2{
+	color: #1E75BE;
+	font-size: 32px;
+	line-height: 44px;
+}
+p{
+	font-family: "Alegreya", serif;
+	max-width: 65ch;
+	margin-left:144px;
+	margin-right: 144px;
+}
+blockquote{
+	font-family: "Alegreya", serif;
+	max-width:100ch;
+	padding: 32px;
+	background-color: #EECFB0;
+	margin-left: 144px;
+	font-size: 28px;
+}
+
+.introparagraph{
+	color: olivedrab;
+}
+
+.author {
+	color: tomato;
 }
