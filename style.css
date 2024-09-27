@@ -1,5 +1,5 @@
 body{
-	font-family: "Open Sans", sans-serif;
+	font-family: "Open Sans", san-serif;
 	background-color: #161613;
 	color: #ffffff;
 	font-size: 18px;
@@ -16,6 +16,7 @@ h1{
 	font-size: 64px;
 	font-weight: bold;
 	line-height: 80px;
+	letter-spacing: 2px;
 	margin-left: 5%;
 }
 h2{
@@ -24,6 +25,7 @@ h2{
 	font-weight: bold;
 	line-height: 44px;
 	margin-left: 5%;
+	letter-spacing: 2px;
 	padding-top: 5%;
 }
 p{
@@ -73,7 +75,7 @@ blockquote{
 	font-weight: 200;
 	margin-left: 5%;
 	margin-bottom: 48px;
-	max-width: 75%;
+	max-width: 60%;
 }
 #quote {
 	font-style: italic;
