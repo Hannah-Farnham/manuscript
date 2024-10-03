@@ -60,27 +60,36 @@ details{
 	max-width: 25%;
 	margin-top: 80px;
 }
+
 summary {
 	list-style-type: '↧ ';
+	font-weight: 700;
 }
+
 details[open] > summary {
 	list-style-type: '↥ ';
-	color: #CB3E2F;
+	color: #000000;
+	font-weight: 700;
   }
+
 summary::marker{
 	color:#CB3E2F;
 	font-size: 30px;
 }
+
 ul{
-	padding-left: 2rem;
+	padding: 2rem;
 	list-style-type: square;
 }
+
 #list-title {
 	font-style: bold;
 }
+
 #list-title:hover{
 	color: #1E75BE;
 }
+
 blockquote{
 	font-family: "neue-haas-grotesk-text", sans-serif;
 	font-size: 24px;
@@ -92,18 +101,39 @@ blockquote{
 	background-color: #F7941C;
 	color: #000000;
 }
-blockquote:nth-child(1) {
-	background-color: #CB3E2F;
-	position: sticky;
-}
 
-blockquote:nth-child(5) {
-	background-color: #1173EE;
-}
-
-blockquote:nth-child(4) {
+.sticky-element-one {
 	background-color: #F7941C;
 	position: sticky;
+  	top: 0;
+  	z-index: 1000;
+}
+
+.sticky-element-two {
+	background-color: #CB3E2F;
+	position: sticky;
+  	top: 0;
+  	z-index: 1000;
+}
+
+.sticky-element-three {
+	background-color: #1173EE;
+	position: sticky;
+  	top: 0;
+  	z-index: 1000;
+}
+
+.sticky-element-four {
+	position: sticky;
+  	top: 0;
+  	z-index: 1000;
+}
+
+.sticky-element-five {
+	background-color: #CB3E2F;
+	position: sticky;
+  	top: 0;
+  	z-index: 1000;
 }
 
 #quote {
@@ -113,6 +143,9 @@ cite{
 	font-size: 18px;
 	font-weight: bold;
 }
+.emphasized{
+	font-weight: 700;
+}
 a {
 	color: #CB3E2F;
 	font-size: 24px;
@@ -121,6 +154,7 @@ a {
 	border: 4px solid #CB3E2F;
 	padding: 16px;
 	margin: 5%;
+	position: relative;
 }
 a:hover{
 	color: #1E75BE;
