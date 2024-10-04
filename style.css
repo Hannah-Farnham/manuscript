@@ -37,13 +37,23 @@ h1:nth-child(3) {
 
 h2{
 	font-family: "neue-haas-grotesk-display", sans-serif;
-	font-size: 32px;
+	font-size: 44px;
 	font-weight: bold;
-	line-height: 44px;
+	line-height: 50px;
 	margin-left: 5%;
 	letter-spacing: 2px;
 	padding-top: 5%;
 }
+
+h3{
+	font-family: "neue-haas-grotesk-display", sans-serif;
+	font-size: 32px;
+	font-weight: bold;
+	line-height: 34px;
+	margin-left: 5%;
+	padding-bottom: 48px;
+}
+
 p{
 	max-width: 65ch;
 	margin-left: 5%;
@@ -137,13 +147,16 @@ blockquote{
 #quote {
 	font-style: italic;
 }
+
 cite{
 	font-size: 18px;
 	font-weight: bold;
 }
+
 .emphasized{
 	font-weight: 700;
 }
+
 a {
 	color: #1173EE;
 	font-size: 20px;
@@ -152,7 +165,12 @@ a {
 	padding: 16px;
 	margin: 5%;
 }
+
 a:hover{
 	color: #CB3E2F;
 	border: 4px solid #1E75BE;
+}
+
+#subtitle{
+	text-indent: 0%;
 }
